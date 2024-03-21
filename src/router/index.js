@@ -7,7 +7,7 @@ import Ex05View from '../views/Ex05View.vue'
 import Ex06View from '../views/Ex06View.vue'
 import Ex07View from '../views/Ex07View.vue'
 import Ex08View from '../views/Ex08View.vue'
-
+import Ex09View from '../views/Ex09View.vue'
 
 const routes = [
   {
@@ -49,6 +49,11 @@ const routes = [
     path: '/8',
     name: 'ex08',
     component: Ex08View
+  },
+  {
+    path: '/9',
+    name: 'ex09',
+    component: Ex09View
   }
  
 ]
